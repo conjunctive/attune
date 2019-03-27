@@ -1,0 +1,28 @@
+{
+  "name": "attune",
+  "description": "Micro-framework for reasoning about the stateful pieces of your software",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "toposort": "^2.0.2"
+  },
+  "scripts": {
+    "doc": "npx jsdoc -p -d doc ./src/index.js && xdg-open doc/index.html",
+    "test": "tape ./test/*.js"
+  },
+  "devDependencies": {
+    "tape": "^4.10.1"
+  },
+  "license": "MIT",
+  "author": "Conjunctive",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/conjunctive/attune.git"
+  },
+  "homepage": "https://github.com/conjunctive/attune",
+  "keywords": [
+    "micro-framework",
+    "data-driven",
+    "dependency injection"
+  ]
+}

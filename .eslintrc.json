@@ -1,0 +1,33 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "experimentalObjectRestSpread": true
+  },
+  "rules": {
+    "no-var": 0,
+    "no-unused-vars": 0,
+    "no-console": 0,
+    "indent": [
+      "error",
+      2,
+      { "VariableDeclarator": "first" }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ]
+  }
+}
